@@ -1,0 +1,13 @@
+.place-order {
+  margin-left: 70px;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}

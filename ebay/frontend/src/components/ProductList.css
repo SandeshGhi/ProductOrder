@@ -1,0 +1,62 @@
+.tables {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-table {
+    width: 1000px;
+    border-collapse: collapse;
+  }
+  
+  .product-table th,
+  .product-table td {
+    border: 1px solid brown; /* Add border around cells */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: lightgray; /* Gray background for table headings */
+  }
+  
+  .product-table tr:nth-child(even) {
+    background-color: lightgray; /* Alternate row background color */
+  }
+
+
+  .courier-charge-table {
+    width: 200px;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add some margin between the product list table and the courier charge table */
+  }
+  
+  .courier-charge-table th,
+  .courier-charge-table td {
+    border: 1px solid brown;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .courier-charge-table th {
+    background-color: lightgray;
+  }
+  
+  .courier-charge-table tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .tables,
+    .product-table th,
+    .product-table td {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .tables,
+    .courier-charge-table th,
+    .courier-charge-table td {
+      font-size: 14px;
+    }
+  }
